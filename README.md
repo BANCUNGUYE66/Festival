@@ -38,11 +38,11 @@
 
 
 
-## 📖 Monsters of rock website <a name="about-project"></a>
+## 📖 Festival concert website <a name="about-project"></a>
 
-> Building a responsive portfolio mobile project using HTML/CSS  from a Bihance design template
+> Building a responsive festival mobile project using HTML/CSS  from a Bihance design template
   
-  >[Click here for the website video presentation](https://www.loom.com/share/26b9a67e82464c60b06ce230e7509a2a)
+  >[Click here for the website video presentation](https://www.loom.com/share/b99799ab89854f1cb83c42aed71acfd4)
 
 
 <img width="1440" alt="Screenshot 2023-02-09 at 15 26 10" src="https://user-images.githubusercontent.com/111200646/217812517-5b3fb531-09c9-4d27-933d-4b4a457214b6.png">
@@ -99,7 +99,7 @@
 
 
 
-- [Live Demo Link](https://tafloninno.github.io/Monsters_of_Rock_concert/)
+- [Live Demo Link](https://bancunguye66.github.io/Festival/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -130,25 +130,13 @@ Example command:
 
 Clone this repository to your desired folder:
 <br>
-<br>gh repo clonehttps://github.com/Tafloninno
+<br>gh repo clone https://github.com/BANCUNGUYE66/Festival.git
 
 
 
 ### Install
 
 Install this project with:
-
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-  gh repo clone Tafloninno/First_capstone_project
-  cd capstone_project
-  npm install -y
-```
---->
 
 ### Usage
 
@@ -193,15 +181,15 @@ To run tests, run the following command:
 
 <!-- AUTHORS -->
 
-## 👥 Mugisha.I <a name="authors"></a>
+## 👥 BANCUNGUYE66 <a name="authors"></a>
 
 
 
-👤 **Mugisha.I**
+👤 **BANCUNGUYE66**
 
-- GitHub: [@githubhandle](https://github.com/Tafloninno)
+- GitHub: [@githubhandle](https://github.com/BANCUNGUYE66)
 
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mugisha-innocent-19b700238/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/Aimable-BANCUNGUYE/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -213,7 +201,7 @@ To run tests, run the following command:
 > I'll add the following section to the webpage.
 
 - [ ] **work section**
-- [ ] **baout page**
+- [ ] **abaout page**
 - [ ] **partners section**
 - [ ] **footer section**
 
