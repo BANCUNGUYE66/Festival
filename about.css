@@ -65,7 +65,7 @@
 }
 
 .humburger_menu.active .bar:nth-child(1) {
-  transform: translateY(13px) rotate(45deg);
+  transform: translateY(11px) rotate(45deg);
   background-color: white;
   z-index: 100;
 }
@@ -75,7 +75,7 @@
 }
 
 .humburger_menu.active .bar:nth-child(3) {
-  transform: translateY(-11px) rotate(-45deg);
+  transform: translateY(-13px) rotate(-45deg);
   z-index: 100;
   background-color: white;
 }
