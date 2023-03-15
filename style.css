@@ -122,7 +122,7 @@
 
 .date {
   color: rgb(96, 92, 92);
-  font-size: 33px;
+  font-size: 31px;
   margin-top: 7px;
 }
 
@@ -144,6 +144,7 @@
   align-items: center;
   flex-direction: column;
   gap: 18px;
+  margin-top: 110px;
 }
 
 .program-content h3 {
@@ -180,6 +181,10 @@
   width: 100%;
   font-size: 20px;
   color: #ec5242;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding-left: -1px;
 }
 
 .program_1 p {
@@ -211,7 +216,7 @@
 
 .features {
   width: 100%;
-  height: 100vh;
+  height: 69vh;
   padding-left: 12px;
   padding-right: 12px;
   overflow: hidden;
@@ -220,7 +225,7 @@
 .features_container {
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 8px;
 }
 
 .featured_artists {
@@ -325,6 +330,7 @@ hr {
 }
 
 .footer {
+  display: none;
   width: 100%;
   height: 30vh;
 }
@@ -397,13 +403,15 @@ hr {
   }
 
   .nav_bar {
+    height: 60px;
     padding: 2px 17%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(246, 246, 246);
+    background-color: white;
     background-image: none;
+    border-bottom-style: ridge;
   }
 
   .logo img {
@@ -430,7 +438,7 @@ hr {
   }
 
   .nav-ticket {
-    width: 33%;
+    width: 11%;
     height: 0;
     display: flex;
     justify-content: center;
@@ -447,8 +455,16 @@ hr {
     display: none;
   }
 
+
+
   .homepage {
+    height: 143vh;
+    padding-left: 273px;
+  }
+
+  .homepage-content {
     height: 100vh;
+    margin-top: 57px;
   }
 
   .hello {
@@ -472,7 +488,12 @@ hr {
   }
 
   .program {
+    height: 108vh;
+  }
+
+  .program-content {
     height: 100vh;
+    margin-top: 0;
   }
 
   .program-cards {
@@ -510,10 +531,11 @@ hr {
 
   .features {
     width: 100%;
-    height: 100vh;
+    height: 133vh;
     padding-left: 120px;
     padding-right: 120px;
     overflow: hidden;
+    background-color: white;
   }
 
   .features_container {
@@ -526,6 +548,7 @@ hr {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-bottom: 19px;
   }
 
   .featured_artists h2 {
@@ -549,7 +572,7 @@ hr {
     grid-template-columns: 50% 50%;
     align-items: center;
     justify-content: space-between;
-    gap: 1.5rem;
+    gap: 13px;
   }
 
   .hidden_artists {
@@ -616,5 +639,24 @@ hr {
     position: absolute;
     left: 53%;
     padding-top: 20px;
+  }
+
+  .footer {
+    display: block;
+  }
+
+  .lower-footer {
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .lower-footer img {
+    width: 21%;
+  }
+
+  .lower-footer p {
+    font-size: 20px;
   }
 }
