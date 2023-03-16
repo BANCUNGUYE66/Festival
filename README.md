@@ -179,6 +179,9 @@ To run tests, run the following command:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### Deployment
+ - github pages
+
 <!-- AUTHORS -->
 
 ## 👥 BANCUNGUYE66 <a name="authors"></a>

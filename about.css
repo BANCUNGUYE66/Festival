@@ -1,0 +1,580 @@
+* {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.socials_container {
+  display: none;
+}
+
+.nav_bar {
+  width: 100%;
+  background-image: url(images/home-bg-desk.png);
+}
+
+.humburger_menu {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding-top: 10px;
+  padding-left: 25px;
+  padding-bottom: 30px;
+}
+
+.bar {
+  width: 40px;
+  height: 7px;
+  background-color: black;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.logo {
+  display: none;
+}
+
+.mobile-menu-list {
+  display: none;
+}
+
+.nav-ticket {
+  display: none;
+}
+
+.nav-link {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  list-style: none;
+  background-color: rgb(242, 101, 85);
+  padding-left: 28px;
+  padding-right: 28px;
+  backdrop-filter: blur(5px);
+}
+
+.nav-link-line {
+  display: flex;
+  padding-top: 50px;
+  text-decoration: none;
+  color: white;
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: 600;
+}
+
+.humburger_menu.active .bar:nth-child(1) {
+  transform: translateY(11px) rotate(45deg);
+  background-color: white;
+  z-index: 100;
+}
+
+.humburger_menu.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.humburger_menu.active .bar:nth-child(3) {
+  transform: translateY(-13px) rotate(-45deg);
+  z-index: 100;
+  background-color: white;
+}
+
+.active {
+  left: 0;
+}
+
+.homepage {
+  height: 100vh;
+  display: flex;
+  background-image: url(images/home-bg-desk.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 12px;
+}
+
+.homepage-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.hello {
+  text-align: center;
+  font-size: 26px;
+  color: #ec5242;
+  font-weight: 300;
+}
+
+.monster_of_rock {
+  text-align: center;
+  display: flex;
+  font-size: 45px;
+  color: #ec5242;
+  font-weight: 900;
+}
+
+.long_P {
+  color: rgb(96, 92, 92);
+  margin-right: 12px;
+  padding: 8px;
+  font-size: 18px;
+  line-height: 24px;
+  border: 5px solid white;
+  font-weight: 400;
+  background-color: white;
+}
+
+.date {
+  color: rgb(96, 92, 92);
+  font-size: 15px;
+  margin-top: 25px;
+  margin-left: 39px;
+}
+
+.location {
+  color: rgb(96, 92, 92);
+  font-size: 15px;
+  margin-top: 7px;
+  margin-bottom: 70px;
+  margin-left: 61px;
+}
+
+.work_section {
+  width: 100%;
+  height: 60vh;
+  background-color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  overflow: hidden;
+}
+
+.work_section_content {
+  display: flex;
+  flex-direction: column;
+}
+
+.main_program {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.main_program h2 {
+  margin-top: 3%;
+  color: rgb(96, 92, 92);
+  font-size: 28px;
+  text-align: center;
+}
+
+.line_program {
+  width: 50px;
+  height: 1px;
+  background-color: #ec5242;
+  margin-bottom: 10%;
+}
+
+.main_program p {
+  text-align: center;
+  color: rgb(96, 92, 92);
+  margin-top: 0;
+}
+
+.main_program_image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.main_program_image img {
+  width: 100%;
+  border: 1px solid rgb(213, 210, 210);
+  padding: 50px;
+}
+
+.features {
+  width: 100%;
+  height: 86vh;
+  padding-left: 40px;
+  padding-right: 40px;
+  overflow: hidden;
+}
+
+.features_container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.featured_artists {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.featured_artists h2 {
+  margin-top: 10%;
+  margin-bottom: 4%;
+  color: rgb(96, 92, 92);
+  font-size: 28px;
+}
+
+.featured_artists p {
+  text-align: center;
+  padding-top: 12px;
+  color: rgb(96, 92, 92);
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.past_concerts {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.first_past_concert {
+  width: 100%;
+  height: 20vh;
+  background-image: linear-gradient(rgba(255, 0, 0, 0.4), rgba(255, 0, 0, 0.4)), url(images/concert1.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+.first_past_concert h2 {
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  padding-top: 10%;
+}
+
+.first_past_concert p {
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  font-weight: 400;
+}
+
+.second_past_concert {
+  width: 100%;
+  height: 20vh;
+  background-image: linear-gradient(rgba(255, 0, 0, 0.4), rgba(255, 0, 0, 0.4)), url(images/concert2.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+.second_past_concert h2 {
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  padding-top: 10%;
+}
+
+.second_past_concert p {
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  font-weight: 400;
+}
+
+.footer {
+  width: 100%;
+  height: 26vh;
+}
+
+.footer-container {
+  background-color: rgb(56, 58, 62);
+  margin-top: 0;
+}
+
+.head-footer {
+  height: 6vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.head-footer h2 {
+  color: white;
+  padding-top: 10%;
+  font-size: 14px;
+}
+
+.line-partner {
+  width: 50px;
+  height: 2px;
+  background-color: rgb(236, 61, 42);
+  margin-bottom: 10%;
+}
+
+.partner-logo {
+  width: 100%;
+  height: 12vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 5px;
+}
+
+.partner-logo img {
+  width: 89px;
+  -webkit-filter: grayscale(100%);
+}
+
+.lower-footer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.lower-footer img {
+  width: 50%;
+}
+
+.lower-footer p {
+  color: rgb(96, 92, 92);
+  font-size: 11px;
+}
+
+@media (min-width: 768px) {
+  .socials_container {
+    padding: 10px  17%;
+    display: flex;
+    background-color: rgb(56, 58, 62);
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .socials_wrapper {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    gap: 18px;
+  }
+
+  .socials_wrapper ul {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+    gap: 26px;
+  }
+
+  .socials_wrapper a {
+    text-decoration: none;
+  }
+
+  .socials_wrapper ul li {
+    font-size: 12px;
+    color: white;
+    cursor: pointer;
+  }
+
+  .socials_wrapper i {
+    color: white;
+  }
+
+  .humburger_menu {
+    display: none;
+  }
+
+  .logo {
+    display: block;
+  }
+
+  .nav_bar {
+    height: 60px;
+    padding: 2px 17%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    background-image: none;
+    border-bottom-style: ridge;
+  }
+
+  .logo img {
+    width: 8rem;
+    margin-left: 10px;
+  }
+
+  .mobile-menu-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 35px;
+    margin-left: 33px;
+  }
+
+  .mobile-menu-list a {
+    color: rgb(96, 92, 92);
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 44px;
+    font-weight: 600;
+  }
+
+  .nav-ticket {
+    width: 11%;
+    height: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    font-size: 19px;
+    color: #ec5242;
+    border: 5px solid #ec5242;
+    padding: 18px;
+    margin: 20px 50px;
+  }
+
+  .nav-link {
+    display: none;
+  }
+
+  .homepage {
+    height: 128vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .homepage-content {
+    height: 100vh;
+  }
+
+  .hello {
+    font-size: 40px;
+  }
+
+  .monster_of_rock {
+    font-size: 100px;
+  }
+
+  .long_P {
+    font-size: 17px;
+  }
+
+  .date {
+    font-size: 17px;
+    padding-left: 227px;
+  }
+
+  .location {
+    font-size: 17px;
+    padding-left: 254px;
+  }
+
+  .work_section {
+    height: 100vh;
+    background-color: white;
+  }
+
+  .main_program p {
+    margin-top: 0;
+  }
+
+  .main_program_image img {
+    width: 40%;
+    border: 1px solid rgb(213, 210, 210);
+    padding: 50px;
+    margin-bottom: 5%;
+  }
+
+  .features {
+    width: 100%;
+    height: 90vh;
+    padding-left: 120px;
+    padding-right: 120px;
+    overflow: hidden;
+  }
+
+  .features_container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .featured_artists {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .featured_artists h2 {
+    color: rgb(112, 110, 110);
+    font-size: 28px;
+    margin-bottom: 12px;
+  }
+
+  .line_program {
+    margin: 0;
+  }
+
+  .past_concerts {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin: 60px 120px;
+  }
+
+  .first_past_concert {
+    height: 30vh;
+  }
+
+  .first_past_concert h2 {
+    padding-top: 25%;
+  }
+
+  .second_past_concert {
+    height: 30vh;
+  }
+
+  .second_past_concert h2 {
+    padding-top: 25%;
+  }
+
+  .footer-container {
+    display: none;
+  }
+
+  .lower-footer {
+    width: 100%;
+    height: 26vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    background-color: rgb(56, 58, 62);
+  }
+
+  .lower-footer img {
+    width: 25%;
+    margin-left: 367px;
+  }
+
+  .lower-footer p {
+    color: white;
+    font-size: 18px;
+    margin-right: 162px;
+  }
+}
